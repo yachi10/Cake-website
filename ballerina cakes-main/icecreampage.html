@@ -1,0 +1,263 @@
+<html>
+    <head>
+        <title>my ice-cream page</title>
+    </head>
+    <style>
+body {
+background-color: #23aa91;
+}
+
+h1 , h2 {
+color:aliceblue;
+font-size:40px;
+text-shadow:2px 2px 5px #ff1a66 ;
+text-align: center;
+}
+
+
+.img1 {
+margin-left: 680px;
+width:150px;
+}
+
+h3  {
+color:aliceblue;
+font-size:35px;
+margin-left: 100px;;
+}
+
+
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 30%;
+  padding: 5px;
+  margin-left:40px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+div.gallery {
+  border: 1px solid transparent;
+  border-radius: 16px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+  border-radius: 20px;
+
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+  font-size: 30px;;
+  color:aliceblue;
+}
+
+div.desc1 {
+  padding: 15px;
+  text-align: center;
+  font-size:30px;
+  color:rgb(0, 0, 0);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+ul.breadcrumb {
+  padding: 10px 16px;
+ text-align:center;
+ 
+}
+ul.breadcrumb li {
+  display: inline;
+  font-size: 20px;
+}
+ul.breadcrumb li+li:before {
+  padding: 8px;
+  color: whitesmoke;
+  content: "/\00a0";
+}
+ul.breadcrumb li a {
+  color: white;
+  text-decoration: none;
+}
+ul.breadcrumb li a:hover {
+  color: darkolivegreen;
+  text-decoration: underline;
+}
+    </style>
+    <body>
+        <h1><i>Ice-Creams</i></h1>
+        <img src = "C:\Users\yachi\OneDrive\Pictures\cakeshop images\divider_5.png" alt = "divider_5" class = "img1">
+        <ul class="breadcrumb">
+          <li><a href="file:///C:/Users/yachi/Downloads/htmlwave.html">Home</a></li>
+          <li><a href="#">Ice cream</a></li>
+        </ul>
+        <br><br><br><br>
+        <div class="row">
+            <div class="column">
+            <img src = "C:\Users\yachi\OneDrive\Pictures\cakeshop images\1ice-1.jpg-removebg-preview.png" alt = "ice-cream-1" style="width:100%">
+            <h3><i>Coffee ice creame</i></h3>
+            </div>
+           <div class="column">
+            <img src = "C:\Users\yachi\OneDrive\Pictures\cakeshop images\ice-cream-2-removebg-preview.png" alt = "ice-cream-2" style="width:100%">
+            <h3><i>Fruit ice creame</i></h3>
+           </div>
+           <div class="column">
+            <img src = "C:\Users\yachi\OneDrive\Pictures\cakeshop images\ice-cream-3-removebg-preview.png" alt =  "ice-cream-3" style="width:100%">
+            <h3><i>Mix ice creame</i></h3>
+           </div>
+           </div>
+
+<br><br><br><br>
+
+<h2><i>Our Creations</i></h2>
+
+<div class="responsive">
+    <div class="gallery">
+      <a target="_blank" href="C:\Users\yachi\OneDrive\Pictures\cakeshop images\4-1.jpg">
+        <img src="C:\Users\yachi\OneDrive\Pictures\cakeshop images\4-1.jpg" alt="Cinque Terre" width="600" height="400">
+      </a>
+      <div class="desc"><i>lime candy</i></div>
+    </div>
+  </div>
+  
+  
+  <div class="responsive">
+    <div class="gallery">
+      <a target="_blank" href="C:\Users\yachi\OneDrive\Pictures\cakeshop images\4-2.jpg">
+        <img src="C:\Users\yachi\OneDrive\Pictures\cakeshop images\4-2.jpg" alt="Forest" width="600" height="400">
+      </a>
+      <div class="desc"><i>swiss cone</i></div>
+    </div>
+  </div>
+  
+  <div class="responsive">
+    <div class="gallery">
+      <a target="_blank" href="C:\Users\yachi\OneDrive\Pictures\cakeshop images\4-3.jpg">
+        <img src="C:\Users\yachi\OneDrive\Pictures\cakeshop images\4-3.jpg" alt="Northern Lights" width="600" height="400">
+      </a>
+      <div class="desc"><i>raspberry candy</i></div>
+    </div>
+  </div>
+  
+  <div class="responsive">
+    <div class="gallery">
+      <a target="_blank" href="C:\Users\yachi\OneDrive\Pictures\cakeshop images\4-4.jpg">
+        <img src="C:\Users\yachi\OneDrive\Pictures\cakeshop images\4-4.jpg" alt="Mountains" width="600" height="400">
+      </a>
+      <div class="desc"><i>pistacheos sundaes</i></div>
+    </div>
+  </div>
+  
+  <div class="responsive">
+    <div class="gallery">
+      <a target="_blank" href="C:\Users\yachi\OneDrive\Pictures\cakeshop images\4-5.jpg">
+        <img src="C:\Users\yachi\OneDrive\Pictures\cakeshop images\4-5.jpg" alt="Cinque Terre" width="600" height="400">
+      </a>
+      <div class="desc"><i>walnut mint creme sundaes</i></div>
+    </div>
+  </div>
+  
+  
+  <div class="responsive">
+    <div class="gallery">
+      <a target="_blank" href="C:\Users\yachi\OneDrive\Pictures\cakeshop images\4-6.jpg">
+        <img src="C:\Users\yachi\OneDrive\Pictures\cakeshop images\4-6.jpg" alt="Forest" width="600" height="400">
+      </a>
+      <div class="desc"><i>choco sundaes</i></div>
+    </div>
+  </div>
+  
+  <div class="responsive">
+    <div class="gallery">
+      <a target="_blank" href="C:\Users\yachi\OneDrive\Pictures\cakeshop images\4-7.jpg">
+        <img src="C:\Users\yachi\OneDrive\Pictures\cakeshop images\4-7.jpg" alt="Northern Lights" width="600" height="400">
+      </a>
+      <div class="desc"><i>matcha sundaes</i></div>
+    </div>
+  </div>
+  
+  <div class="responsive">
+    <div class="gallery">
+      <a target="_blank" href="C:\Users\yachi\OneDrive\Pictures\cakeshop images\4-8.jpg">
+        <img src="C:\Users\yachi\OneDrive\Pictures\cakeshop images\4-8.jpg" alt="Mountains" width="600" height="400">
+      </a>
+      <div class="desc"><i>mint sundaes</i></div>
+    </div>
+  </div>
+
+  <div class="responsive">
+    <div class="gallery">
+        <img src="C:\Users\yachi\OneDrive\Pictures\cakeshop images\icecream_01.png" alt="Mountains" width="600" height="400">
+      <div class="desc"><i>Small box</i></div>
+      <div class="desc1"><b>$15</b></div>
+    </div>
+  </div>
+
+  <div class="responsive">
+    <div class="gallery">
+        <img src="C:\Users\yachi\OneDrive\Pictures\cakeshop images\icecream_02.png" alt="Mountains" width="600" height="400">
+      <div class="desc"><i>Medium box</i></div>
+      <div class="desc1"><b>$35</b></div>
+    </div>
+  </div>
+
+  <div class="responsive">
+    <div class="gallery">
+        <img src="C:\Users\yachi\OneDrive\Pictures\cakeshop images\icecream_03.png" alt="Mountains" width="600" height="400">
+      <div class="desc"><i>Assorty box</i></div>
+      <div class="desc1"><b>$55</b></div>
+    </div>
+  </div>
+
+  <div class="responsive">
+    <div class="gallery">
+        <img src="C:\Users\yachi\OneDrive\Pictures\cakeshop images\icecream_04.png" alt="Mountains" width="600" height="400">
+      <div class="desc"><i>Big box</i></div>
+      <div class="desc1"><b>$75</b></div>
+    </div>
+  </div>
+  <div class="clearfix"></div>
+    </body>
+</html>

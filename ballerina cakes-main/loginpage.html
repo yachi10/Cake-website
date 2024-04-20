@@ -1,0 +1,112 @@
+<html>
+    <head><title>login page</title>
+    </head>
+    <style>
+        body {
+background-color: #e6b3cc;
+font-family: Arial, Helvetica, sans-serif;
+        }
+    h1 {
+text-align:center;
+font-size:50px;
+color:aliceblue;
+text-shadow:2px 2px 5px rgb(213, 21, 73);
+    }
+h2 {
+font-size:40px;
+color:aliceblue;
+}
+
+    input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+button {
+    background-color: #cb0f70;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-left:2px;
+}
+button:hover {
+  opacity: 0.8;
+}
+
+
+
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+  span.psw {
+     display: block;
+     float: none;
+  }
+
+}
+.name {
+color:aliceblue;
+}
+ul.breadcrumb {
+  padding: 10px 16px;
+ text-align:center;
+ 
+}
+ul.breadcrumb li {
+  display: inline;
+  font-size: 20px;
+}
+ul.breadcrumb li+li:before {
+  padding: 8px;
+  color: whitesmoke;
+  content: "/\00a0";
+}
+ul.breadcrumb li a {
+  color: white;
+  text-decoration: none;
+}
+ul.breadcrumb li a:hover {
+  color: darkolivegreen;
+  text-decoration: underline;
+}
+        </style>
+        <body>
+<h1><i>My Account</i></h1>
+<ul class="breadcrumb">
+  <li><a href="file:///C:/Users/yachi/Downloads/htmlwave.html">Home</a></li>
+  <li><a href="#">Login</a></li>
+</ul>
+<br><br><br><br><br><br>
+
+<h2><i>Login Form</i></h2>
+
+<form action="/action_page.php" method="post">
+
+
+
+    <label for="uname" class = "name"><i>Username</i></label>
+    <input type="text" placeholder="Enter Username" name="uname" required>
+
+    <label for="psw" class = "name"><i>Password</i></label>
+    <input type="password" placeholder="Enter Password" name="psw" required>
+        
+    <button type="submit">Login</button>
+    <label>
+      <input type="checkbox" checked="checked" name="remember"> Remember me
+    </label>
+
+    <span class="psw"><a href="#">Forgot password?</a></span>
+  </div>
+</form>
+        </body>
+        </html>

@@ -1,0 +1,119 @@
+<htmL>
+    <head><title>Contact us page </title>
+    </head>
+    <style>
+body {
+    background-color: #f2d9e6;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+* {box-sizing: border-box;}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 14px;
+  border: 1px solid #af5793;
+  border-radius: 16px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #cb0f70;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-left:700px;
+}
+
+input[type=submit]:hover {
+  background-color: #840f36;
+}
+
+.container {
+  border-radius: 12px;
+  background-color: #7d5a75;
+  padding: 20px;
+}
+
+
+h1 {
+font-size:60px;
+text-shadow:2px 2px 5px  #900b61;
+color:aliceblue;
+text-align: center;
+}
+.img1 {
+margin-left: 665px;;
+}
+h2 {
+font-size:50px;
+text-shadow:2px 2px 5px  #3a063d;
+color:aliceblue;
+text-align: center;
+}
+h3 {
+font-size:40px;
+text-shadow:2px 2px 5px  #231a24;
+color:aliceblue;
+text-align: center;
+}
+.img2 {
+margin-left: 720px;
+width:90px;
+}
+ul.breadcrumb {
+  padding: 10px 16px;
+ text-align:center;
+ 
+}
+ul.breadcrumb li {
+  display: inline;
+  font-size: 20px;
+}
+ul.breadcrumb li+li:before {
+  padding: 8px;
+  color: whitesmoke;
+  content: "/\00a0";
+}
+ul.breadcrumb li a {
+  color: white;
+  text-decoration: none;
+}
+ul.breadcrumb li a:hover {
+  color: darkolivegreen;
+  text-decoration: underline;
+}
+        </style>
+
+        <body>
+<h1><i>Contacts</i></h1>
+<ul class="breadcrumb">
+  <li><a href="file:///C:/Users/yachi/Downloads/htmlwave.html">Home</a></li>
+  <li><a href="#">Contact</a></li>
+</ul>
+<br><br><br><br>
+<img src = "C:\Users\yachi\OneDrive\Pictures\cakeshop images\divider_1.png" alt = "divider_1" class = "img1">
+<h2><i>Our Contacts</i></h2>
+<br><br>
+<img src = "C:\Users\yachi\OneDrive\Pictures\cakeshop images\icon-devider-gray.png" alt = "divider_1" class = "img2">
+<h3><i>Send Message</i></h3>
+<br><br>
+<div class="container">
+    <form action="/action_page.php">
+  
+      <input type="text" id="fname" name="firstname" placeholder="Your Name*">
+  
+      <input type="text" id="lname" name="lastname" placeholder="Your Email*">
+
+      <textarea id="subject" name="subject" placeholder="Text Message*" style="height:200px"></textarea>
+
+    <input type="submit" value="Submit">
+  </form>
+</div>
+        </body>
+        </html>
